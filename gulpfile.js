@@ -17,7 +17,7 @@ gulp.task('connect', function() {
 // watcher
 gulp.task('watch',['connect'],function(){
 	gulp.watch("./src/jade/**/*",['jade']);
-	gulp.watch("./src/less/styles.less",['less']);
+	gulp.watch("./src/less/**/*",['less']);
 });
 
 // Jade templates
