@@ -31,7 +31,7 @@ gulp.task('jade',function(){
 
 //Clean dist
 gulp.task('cleaner',function(){
-	del("./dist/**/*");
+	del.sync("./dist/**/*");
 });
 
 //move images and scripts
